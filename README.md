@@ -6,7 +6,7 @@ TechNova Solutions, a mid-sized IT services company with ~1,200 employees, has b
 Despite competitive salaries and benefits, the company struggles to retain talent—especially in technical and client-facing roles.  
 This has resulted in increased recruitment costs, project delays, and declining morale.
 
-As a newly hired **Data Scientist**, your goal is to develop a **data-driven attrition prediction model** that identifies at-risk employees early and provides actionable insights to improve retention.
+Company wants to develop a **data-driven attrition prediction model** that identifies at-risk employees early and provides actionable insights to improve retention.
 
 ---
 
@@ -33,15 +33,13 @@ This project builds a predictive framework to identify employees likely to leave
 ## Dataset
 
 - **File name:** `employee_churn_dataset.csv`
-- **Source:** Provided by TechNova Solutions HR Team (mock dataset).
-- **Records:** 10,000 employees
-- **Features:**
+]- **Features:**
   - Demographics (e.g., Age, Gender, Marital Status)
   - Work profile (e.g., Tenure, Projects Completed, Overtime Hours)
   - Performance & Feedback scores
   - Target variable: `Churn` (0 = Stayed, 1 = Left)
 
-A separate **data dictionary** file was used to interpret column meanings.
+And separate **data dictionary** file used to interpret column meanings.
 
 ---
 
@@ -103,7 +101,7 @@ All models scored close to random (AUC ≈ 0.5) → confirming weak predictive s
 | Random Forest       |  0.52   |   0.00   |  0.00  |   0.00    |
 | XGBoost             |  0.48   |   0.00   |  0.00  |   0.00    |
 
-Even though overall predictive performance was modest, the project successfully demonstrated a complete **end-to-end ML pipeline** and applied **explainable AI** techniques for responsible decision-making.
+Even though overall predictive performance was modest, this project successfully demonstrated a complete **end-to-end ML pipeline** and applied **explainable AI** techniques for responsible decision-making.
 
 ---
 
