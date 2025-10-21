@@ -137,6 +137,7 @@ Even though overall predictive performance was modest, this project successfully
 
 ## Repository Structure
 
+```
 TechNova_Attrition_Prediction/
 │
 ├── notebook/TechNova_Attrition_Prediction_c0954042.ipynb # Main notebook
@@ -144,7 +145,7 @@ TechNova_Attrition_Prediction/
 ├── employee_churn_dataset.csv # Dataset
 ├── employee_churn_data_dictionary.csv # Data dictionary
 ├── README.md # Project documentation
-
+```
 ---
 
 ## Conclusion
